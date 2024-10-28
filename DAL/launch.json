@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Ejecutar DAL/main.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/DAL/main.py",  
+            "console": "integratedTerminal",             
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"      
+            },
+            "justMyCode": true                           
+        }
+    ]
+}
